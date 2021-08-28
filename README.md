@@ -16,5 +16,5 @@ The web-app is hosted at:
 https://deb-nlpspamdetection-demo.herokuapp.com
 ##
 #### I had faced issues in direct deployment from krishnaik06/Heroku-Demo due to joblib import from sklearn.externals having been deprecated. I commented the import statement in app.py
-### In addition, I also changed the sklearn version from 0.18 to 0.23.2, as I had faced issues with this earlier & build the model .pkl files locally. The rest of the model deployment & hosting on Heorku was successful.
+### In addition, I also changed the sklearn version from 0.18 to 0.23.2, as I had faced issues with this earlier & build the model .pkl files locally. The rest of the model deployment & hosting on Heroku was successful.
 #### The deployment logs were available in Heroku CLI & I used the command:$ heroku logs --app deb-nlpspamdetection-demo to check the deployment logs. Here deb-nlpspamdetection-demo is my Heroku app name ####
